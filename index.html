@@ -3,9 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KANIA – Kawan Navigasi Digital Anda</title>
+<title>KANIA, Kawan Navigasi Digital Anda</title>
 <meta name="description" content="KANIA adalah program pendampingan navigasi layanan kesehatan payudara di Kota Padang, dikerjakan oleh Tim Peneliti Universitas Andalas.">
- 
 <style>
   :root { --teks:#1f2933; --latar:#fff; --lembut:#f4f6f8; --aksen:#0b6e4f; --garis:#d9dfe5; }
   @media (prefers-color-scheme: dark) {
@@ -22,30 +21,33 @@
   a { color:var(--aksen); }
   nav a { margin-right:1rem; }
   footer { border-top:1px solid var(--garis); font-size:.9rem; opacity:.85; }
-  .isi { background:#fff3cd; color:#664d03; padding:0 .25rem; border-radius:.2rem; }
+  .lompat { position:absolute; left:-999px; }
+  .lompat:focus { left:1rem; top:1rem; background:var(--latar); padding:.5rem; }
 </style>
 </head>
 <body>
+<a class="lompat" href="#isi">Lewati ke isi</a>
 <header>
   <h1>KANIA</h1>
   <p class="sub">Kawan Navigasi Digital Anda</p>
   <nav aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="privasi.html">Kebijakan Privasi</a></nav>
 </header>
 
-<main>
+<main id="isi">
   <h2>Tentang program</h2>
   <p>KANIA adalah program pendampingan yang membantu warga Kota Padang mengakses layanan kesehatan payudara: dari pemeriksaan awal, rujukan, hingga kontrol lanjutan. Program ini dikerjakan oleh <strong>Tim Peneliti Universitas Andalas</strong> bersama fasilitas kesehatan mitra.</p>
 
   <h2>Apa yang kami lakukan</h2>
   <ul>
-    <li>Mengingatkan jadwal pemeriksaan lanjutan dan kontrol melalui WhatsApp, hanya kepada orang yang telah memberi persetujuan.</li>
+    <li>Mengingatkan jadwal pemeriksaan lanjutan dan kontrol lewat WhatsApp, hanya kepada orang yang telah memberi persetujuan.</li>
     <li>Menghubungkan pengguna dengan petugas pendamping bila memerlukan bantuan.</li>
     <li>Menyediakan informasi edukasi umum bila diminta oleh pengguna.</li>
   </ul>
-  <p class="kotak"><strong>Penting:</strong> KANIA bukan layanan diagnosis dan tidak menggantikan pemeriksaan atau saran tenaga medis. Pesan dari KANIA tidak berisi diagnosis.</p>
+  <p class="kotak"><strong>Penting:</strong> KANIA bukan layanan diagnosis dan tidak menggantikan pemeriksaan atau saran tenaga medis. Keputusan medis dibuat dalam konsultasi langsung antara Anda dan dokter. Pesan dari KANIA tidak berisi diagnosis.</p>
 
-  <h2>Berhenti menerima pesan</h2>
-  <p>Anda dapat berhenti kapan saja dengan membalas <strong>BERHENTI</strong> atau <strong>STOP</strong> pada pesan WhatsApp dari kami, atau menghubungi kami di kontak di bawah.</p>
+  <h2 id="hak">Data Anda dan hak Anda</h2>
+  <p>Kami memproses data pribadi, termasuk data kesehatan, hanya dengan persetujuan Anda. Anda berhak mengakses, memperbaiki, membatasi, menarik persetujuan, dan meminta data Anda dihapus. Kami menanggapi permintaan Anda paling lambat 3 x 24 jam sejak identitas Anda terverifikasi. Rincian ada di <a href="privasi.html#hak">kebijakan privasi</a>.</p>
+  <p>Untuk berhenti menerima pesan WhatsApp, balas <strong>BERHENTI</strong> atau <strong>STOP</strong> pada pesan dari kami.</p>
 
   <h2>Kontak</h2>
   <p>
